@@ -1,0 +1,27 @@
+/* Footer.css */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .social-links a {
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    transform: translateY(-5px); 
+  }

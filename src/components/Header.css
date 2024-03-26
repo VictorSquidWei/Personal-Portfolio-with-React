@@ -1,0 +1,55 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap');
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 42px; 
+  margin: 0;
+  color: rgb(255, 255, 255); 
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; 
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  transform: translateY(-5px); 
+  color: #e0e0e0;
+}
+
+.social-links a {
+  margin-right: 15px; 
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  transform: translateY(-5px);
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}

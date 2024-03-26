@@ -1,0 +1,50 @@
+/* Projects.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 40px;
+  background-color: #333;
+  background-image: linear-gradient(145deg, #4b4b4b 10%, #1a1a1a 100%);
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.project-card {
+  background-color: #414649; 
+  padding: 20px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.project-card:hover {
+  background-color: #626262; 
+  transform: scale(1.08); 
+  z-index: 10; 
+}
+
+.project-card h3, .project-card p, .project-card a {
+  color: #ddd;
+}
+
+.project-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.project-card p {
+  font-size: 1em; 
+  margin-bottom: 20px; 
+}
+
+.project-card a {
+  font-weight: bold; 
+  color: #f58a26;
+  text-decoration: underline; 
+  transition: color 0.3s ease, border-bottom 0.3s ease; 
+}
+
+.project-card a:hover {
+  color: #23d5ab; 
+}
